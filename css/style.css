@@ -9,13 +9,44 @@ li {list-style-type: none;color:white;}
 
  header{display: flex;flex-direction:row;position:fixed;background-color:black;margin-top:20px }
 
-  main{padding-top:400px;}
+  main{padding-top:300px;}
+
+
+
+  /*VISTA DESKTOP*/
+
+
+
+  @media (max-width: 1024px) {
+    footer{display: flex;flex-direction:row;justify-content:center;align-items:center;}
+    }
+
+    .centrarTexto{justify-content:center;text-align: center;}
+  
+  
+    footer{ padding-top:200px;padding-bottom:50px;}
+    .logoFooter{ display:flex;flex-direction:row;justify-content:center;align-items:center;}
+    .contactoFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align: center;}
+    .rrssFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;}
+    .tituloPaginal{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;padding-left:70px;}
+
+    /*MAIN INDEX*/
+
+    .saludoJuacTitu{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;padding-left:70px;}
+    .saludoJuac{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;text-align: center;}
+    .imgSaludo{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;}
+    .tituloNoticias{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align:center;}
+    .settingNoticias{margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
+
+    
+
+
 
  
 
   .logo{width: 150px;
     height: 150px;
-    border-radius: 100px; }
+    border-radius: 100px;}
   
   
   .fondoParraforojo {
@@ -65,20 +96,21 @@ li {list-style-type: none;color:white;}
   
   h1 {
     color: white;
-    font-size: 40px;
-    font-style: italic;
+    font-size: 30px;
+    font-style: italic;font-weight: bold;
   }
   
   h2 {
     color: white;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bolder;
   }
   
   h3 {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
+    font-weight: bold
   }
   
   p {
@@ -113,23 +145,65 @@ li {list-style-type: none;color:white;}
       width: 100%;
       height: auto;
     }
+
+    /*PROPIEDADES INDEX DESKTOP*/
+    
+
+
+
+
+    
     
     
     
   /*MOBILE*/
   @media (max-width: 768px) {
-    header, main, footer {
+    header, main, footer nav {
       display: flex;
       flex-direction: column;
-      align-items: center;
-    }
-    ul {
-      display: flex;
-      padding: 0;
+      align-items:center;justify-content:center;
     }
 
-    .videoInvitacion {
-      width: 100%;
-      height: auto;
+    .pt40{padding-top:40px;}
+    .pb40{padding-bottom:40px;}
+
+    h2 {
+      color: white;
+      font-size: 30px;
+      font-weight: bolder;
     }
+
+
+    .color{color:white;}
+    
+
+
+    .logo{width: auto;
+      height: auto;
+      border-radius: 100px;}
+    
+  
+
+    main{padding-top:200px;}
+    footer{ padding-top:200px;padding-bottom:50px;}
+    .logoFooter{ display:flex;flex-direction:row;justify-content:center;align-items:center;}
+    .contactoFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align: center;}
+    .rrssFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;}
+
+    .centrarTexto{justify-content:center;text-align: center;}
+
+
+    /*MAIN INDEX*/
+
+    .tituloPaginal{justify-content:center;align-items:center;margin-top:30px; margin-bottom:20px;padding:30px;}
+    .saludoJuacTitu{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
+    .saludoJuac{justify-content:center;align-items:center;margin-top:10px; margin-bottom:40px;padding:30px;text-align: center;}
+    .imgSaludo{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;}
+    .tituloNoticias{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align:center;}
+    .settingNoticias{margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
+
+   
+
   }
+
+  
