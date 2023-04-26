@@ -1,209 +1,325 @@
 /*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
-* {margin: 0;padding: 0;}
+a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 1s all;
+}
 
+a:hover {
+  color: white;
+  font-size: 30px;
+  background-color: red;
+  padding: 8px;
+  border-radius: 10px;
+}
 
-li {list-style-type: none;color:white;}
+main {
+  padding-top: 300px;
+}
 
+li {
+  list-style-type: none;
+  color: white;
+}
 
+.centrarTexto {
+  justify-content: center;
+  text-align: center;
+}
 
- header{display: flex;flex-direction:row;position:fixed;background-color:black;margin-top:20px }
+.tituloPaginal {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  padding-left: 70px;
+}
 
-  main{padding-top:300px;}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
 
+nav ul li {
+  display: inline-block;
+  padding: 30px;
+}
 
+.mb20 {
+  margin-bottom: 20px;
+}
 
-  /*VISTA DESKTOP*/
+.mt20 {
+  margin-top: 20px;
+}
 
+.p20 {
+  padding: 20px;
+}
 
+.p40 {
+  padding: 40px;
+}
 
-  @media (max-width: 1024px) {
-    footer{display: flex;flex-direction:row;justify-content:center;align-items:center;}
-    }
+.p70 {
+  padding: 70px;
+}
 
-    .centrarTexto{justify-content:center;text-align: center;}
-  
-  
-    footer{ padding-top:200px;padding-bottom:50px;}
-    .logoFooter{ display:flex;flex-direction:row;justify-content:center;align-items:center;}
-    .contactoFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align: center;}
-    .rrssFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;}
-    .tituloPaginal{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;padding-left:70px;}
+.p200 {
+  padding: 200px;
+}
 
-    /*MAIN INDEX*/
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
 
-    .saludoJuacTitu{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;padding-left:70px;}
-    .saludoJuac{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;text-align: center;}
-    .imgSaludo{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;}
-    .tituloNoticias{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align:center;}
-    .settingNoticias{margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
+h1 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
 
-    
+h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
 
+h3 {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
 
+p {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 20px;
+}
 
- 
+li {
+  padding: 20px;
+}
 
-  .logo{width: 150px;
-    height: 150px;
-    border-radius: 100px;}
-  
-  
-  .fondoParraforojo {
-    background-color: red;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: justify;
-    width: 50%;
-    margin: 20px;
-    border-radius: 10px;
-    opacity: 0.8;}
-  
-  nav ul li {
-    display: inline-block;
-    padding: 30px;
+.imgFluid {
+  width: 100%;
+  height: auto;
+}
+
+/*GENERAL MOBILE*/
+@media (max-width: 768px) {
+  header, main, footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .mb20 {
-    margin-bottom: 20px;
-  }
-  
-  .mt20 {
-    margin-top: 20px;
-  }
-  
-  .p20 {
-    padding: 20px;
-  }
-  
-  .p40 {
-    padding: 40px;
-  }
-  
-  .p70 {
-    padding: 70px;
-  }
-  
-  .p200 {
-    padding: 200px;
-  }
-  
-  /*PROPIEDDES GENERALES DEL BODY*/
-  body {
-    background-color: black;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  h1 {
+  li {
+    list-style-type: none;
     color: white;
-    font-size: 30px;
-    font-style: italic;font-weight: bold;
   }
-  
+  .pt40 {
+    padding-top: 40px;
+  }
+  .pb40 {
+    padding-bottom: 40px;
+  }
   h2 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
   }
-  
-  h3 {
+  .color {
     color: white;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bold
   }
-  
-  p {
-    color: white;
-    text-decoration: none;
-    line-height: 30px;
-    text-align: justify;
+  .logo {
+    width: auto;
+    height: auto;
+    border-radius: 100px;
   }
-  
-  a {
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
+  main {
+    padding-top: 200px;
   }
-  
-  
-  
-  /*PROPIEDADES DEL FOOTER*/
-  .sizeRedesSocialesLogos{
-    height: 50px;
-    width: 50px;
+  footer {
+    padding-top: 200px;
+    padding-bottom: 50px;
   }
-  
-  
-  /*BOX MODEL*/
-  li {
+  .logoFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .rrssFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .centrarTexto {
+    justify-content: center;
+    text-align: center;
+  }
+  /*MAIN INDEX MOBILE*/
+  .tituloPaginal {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  .saludoJuacTitu {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
     padding: 20px;
+    text-align: center;
   }
-  
-    
-    .imgFluid {
-      width: 100%;
-      height: auto;
-    }
-
-    /*PROPIEDADES INDEX DESKTOP*/
-    
-
-
-
-
-    
-    
-    
-    
-  /*MOBILE*/
-  @media (max-width: 768px) {
-    header, main, footer nav {
-      display: flex;
-      flex-direction: column;
-      align-items:center;justify-content:center;
-    }
-
-    .pt40{padding-top:40px;}
-    .pb40{padding-bottom:40px;}
-
-    h2 {
-      color: white;
-      font-size: 30px;
-      font-weight: bolder;
-    }
-
-
-    .color{color:white;}
-    
-
-
-    .logo{width: auto;
-      height: auto;
-      border-radius: 100px;}
-    
-  
-
-    main{padding-top:200px;}
-    footer{ padding-top:200px;padding-bottom:50px;}
-    .logoFooter{ display:flex;flex-direction:row;justify-content:center;align-items:center;}
-    .contactoFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align: center;}
-    .rrssFooter{display:flex;flex-direction:column;justify-content:center;align-items:center;}
-
-    .centrarTexto{justify-content:center;text-align: center;}
-
-
-    /*MAIN INDEX*/
-
-    .tituloPaginal{justify-content:center;align-items:center;margin-top:30px; margin-bottom:20px;padding:30px;}
-    .saludoJuacTitu{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
-    .saludoJuac{justify-content:center;align-items:center;margin-top:10px; margin-bottom:40px;padding:30px;text-align: center;}
-    .imgSaludo{justify-content:center;align-items:center;margin-top:40px; margin-bottom:40px;padding:30px;}
-    .tituloNoticias{justify-content:center;align-items:center;margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align:center;}
-    .settingNoticias{margin-top:10px;justify-content:center; margin-bottom:5px;padding:20px;text-align: center;}
-
-   
-
+  .saludoJuac {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
   }
+  .imgSaludo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+  }
+  .tituloNoticias {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  .settingNoticias {
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: black;
+  margin-top: 20px;
+} /*DESKTOP*/
+@media (max-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+footer {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
 
-  
+.logoFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactoFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rrssFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizeRedesSocialesLogos {
+  height: 50px;
+  width: 50px;
+}
+
+/*MOBILE*/
+/*DESKTOP*/
+.saludoJuacTitu {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  padding-left: 70px;
+}
+
+.saludoJuac {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.imgSaludo {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.tituloNoticias {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.settingNoticias {
+  margin-top: 10px;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
