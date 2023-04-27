@@ -1,0 +1,35 @@
+    .tituloIzquierdo{justify-content:center;align-items:center;margin-top:100px; margin-bottom:10px;padding:20px;padding-left:70px;}
+    .parrafoCentral{ margin-bottom:40px;padding:30px;text-align: center;padding-left:90px;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+    .tituloDerecho{display:flex;flex-direction:column;padding-right:30px;margin-top:100px;margin-bottom:10px;padding:20px;}
+    .textForm{justify-content:center;align-items:center;margin-top:20px; margin-bottom:100px;padding:20px;padding-left:70px;}
+    .teEsperamosText{justify-content:center;text-align:center;align-items:center;padding-right:100px;}
+    .tituloDnosPEncontrar{justify-content:center;align-items:center;margin-top:100px;padding:10px;padding-left:70px;}
+    .iFrameLoc{justify-content:center;align-items:center; margin-bottom:10px;padding:20px;padding-left:70px;}
+    .videoCon{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:30px; margin-bottom:80px;padding:20px;padding-bottom:60px;}
+    .videoConSize{height:500px;width:600px}
+    .locConSize{width: 350px;height:350px;}
+    .textContacto{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:100px;margin-bottom:10px;padding-left:40px;}
+
+    
+    /*MOBILE*/
+    
+    @media (max-width: 768px) {
+    .tituloIzquierdo{ margin-bottom:10px;padding:5px;text-align: center;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+    .parrafoCentral{ margin-bottom:40px;padding:30px;text-align: center;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+    .textForm{justify-content:center;align-items:center;margin-top:10px; margin-bottom:100px;padding:20px;}
+    .tituloDnosPEncontrar{justify-content:center;align-items:center;margin-top:100px;padding:10px;text-align: center}
+    .teEsperamosText{margin-bottom:10px;padding:5px;text-align: center;justify-content:center;align-items:center;}
+    .iFrameLoc{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:30px; margin-bottom:80px;padding:20px;padding-bottom:60px;}
+    .tituloDerecho{justify-content:center;align-items:center;margin-top:100px; margin-bottom:10px;padding:20px;align-items:center;text-align: center;} 
+    .videoConSize{width: auto;height:auto;}
+    .textContacto{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align: center;}
+    .locConSize{width: auto;height:auto;}
+    a{font-size:17px;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+
+    }
+
+
+    
+    
+    
+    
