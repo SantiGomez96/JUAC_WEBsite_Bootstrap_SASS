@@ -19,6 +19,23 @@ a:hover {
   border-radius: 10px;
 }
 
+p {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 20px;
+  transition: 1s all;
+}
+
+p:hover {
+  color: white;
+  line-height: 30px;
+  background-color: rgb(13, 2, 68);
+  border-radius: 10px;
+  padding: 3px;
+}
+
 label {
   color: white;
 }
@@ -108,14 +125,6 @@ h3 {
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
-}
-
-p {
-  color: white;
-  text-decoration: none;
-  line-height: 30px;
-  text-align: justify;
-  font-size: 20px;
 }
 
 li {
@@ -397,10 +406,13 @@ footer {
   padding-left: 70px;
 }
 
-.tituloDerecho {
+.tituloDer {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 20px;
 }
 
 .videoNos {
@@ -413,6 +425,18 @@ footer {
   padding: 20px;
 }
 
+.videoNosSize {
+  height: 500px;
+  width: 600px;
+}
+
+/*MOBILE*/
+@media (max-width: 768px) {
+  .videoNosSize {
+    width: auto;
+    height: auto;
+  }
+}
 .tituloIzquierdo {
   justify-content: center;
   align-items: center;
@@ -433,7 +457,7 @@ footer {
   align-items: center;
 }
 
-.tituloDerecho {
+.tituloDer {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 30px;
@@ -442,6 +466,15 @@ footer {
   padding: 20px;
 }
 
+.imgIzq {
+  padding-left: 70px;
+}
+
+.imgDer {
+  padding-right: 70px;
+}
+
+/*MOBILE*/
 @media (max-width: 768px) {
   .tituloIzquierdo {
     justify-content: center;
@@ -500,6 +533,7 @@ footer {
   width: 600px;
 }
 
+/*MOBILE*/
 @media (max-width: 768px) {
   .tituloCentral {
     justify-content: center;
@@ -689,6 +723,27 @@ footer {
     justify-content: center;
     align-items: center;
   }
+}
+nav {
+  background-image: linear-gradient(to bottom, red, black);
+}
+
+footer {
+  background-image: linear-gradient(to bottom, black, red);
+}
+
+/*.translate{
+    transition:all 1s;
+    &:hover{
+        transform:translateX(20px);
+        cursor: pointer;
+    }
+}*/
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.5, 1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

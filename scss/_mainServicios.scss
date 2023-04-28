@@ -1,9 +1,12 @@
 .tituloCentral{display:flex;flex-direction: row;justify-content:center;align-items:center;margin-top:40px; margin-bottom:10px;padding:20px;}
     .parrafoCentral{ margin-bottom:40px;padding:30px;text-align: center;} 
     .videoNos{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:30px; margin-bottom:10px;padding:20px;}
-    .videoNosSize{height:500px;width:600px;}
+    .videoNosSize{height:500px;width:600px}
     
-
+    
+    
+    /*MOBILE*/
+    
     @media (max-width: 768px) {
         .tituloCentral{justify-content:center;align-items:center;margin-top:40px; margin-bottom:10px;padding:20px;text-align:center;} 
         .videoNosSize{width: auto;height:auto;}
