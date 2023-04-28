@@ -4,38 +4,6 @@
   padding: 0;
 }
 
-a {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-  transition: 1s all;
-}
-
-a:hover {
-  color: white;
-  font-size: 30px;
-  background-color: red;
-  padding: 8px;
-  border-radius: 10px;
-}
-
-p {
-  color: white;
-  text-decoration: none;
-  line-height: 30px;
-  text-align: justify;
-  font-size: 20px;
-  transition: 1s all;
-}
-
-p:hover {
-  color: white;
-  line-height: 30px;
-  background-color: rgb(13, 2, 68);
-  border-radius: 10px;
-  padding: 3px;
-}
-
 label {
   color: white;
 }
@@ -51,6 +19,7 @@ main {
 li {
   list-style-type: none;
   color: white;
+  padding: 20px;
 }
 
 .centrarTexto {
@@ -125,10 +94,6 @@ h3 {
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
-}
-
-li {
-  padding: 20px;
 }
 
 .imgFluid {
@@ -744,6 +709,38 @@ footer {
 }
 .scale:hover {
   transform: scale(1.5, 1.5);
+}
+
+a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 1s all;
+}
+
+a:hover {
+  color: white;
+  font-size: 30px;
+  background-color: red;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+p {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 20px;
+  transition: 1s all;
+}
+
+p:hover {
+  color: white;
+  line-height: 30px;
+  background-color: rgb(13, 2, 68);
+  border-radius: 10px;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
